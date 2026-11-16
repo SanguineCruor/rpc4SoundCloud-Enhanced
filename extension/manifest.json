@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "rpc4SoundCloud",
+  "name": "rpc4SoundCloud Enhanced",
   "version": "1.0.0",
   "description": "Reads what's playing on SoundCloud and forwards it to a local relay for Discord Rich Presence.",
   "host_permissions": ["*://soundcloud.com/*"],
