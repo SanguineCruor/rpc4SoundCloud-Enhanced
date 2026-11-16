@@ -1,4 +1,4 @@
-// rpc4SoundCloud — content.js
+// rpc4SoundCloud Enhanced — content.js
 const RELAY_URL = "ws://localhost:6989";
 const POLL_INTERVAL_MS = 1000;
 
