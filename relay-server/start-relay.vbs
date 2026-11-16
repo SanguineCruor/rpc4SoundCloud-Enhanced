@@ -1,4 +1,4 @@
-' rpc4SoundCloud — start-relay.vbs
+' rpc4SoundCloud Enhanced — start-relay.vbs
 '
 ' Runs the relay server silently in the background (no console window),
 ' so it can be dropped into Windows' Startup folder and just work every
