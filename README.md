@@ -35,7 +35,7 @@ This is a fork of [rpc4SoundCloud](https://github.com/loren-wastaken/rpc4SoundCl
 | Progress bar | Not shown; only the elapsed time was sent (`timestamps.start`) | Track duration is read from the player (`durationSeconds`) and sent as `timestamps.end`, which renders a progress bar |
 | Buffering | Buffering was not handled | Buffering is detected (position equal to 0, or unchanged across consecutive polls). The presence is hidden until playback continues |
 | Page reload | Stale presence could persist after the SoundCloud page was reloaded | Presence is cleared when the extension connects to the relay and on every URL change |
-| Single tracks | Title was shown twice when the artist name equals the track title | The artist line is omitted when it matches the title (case-insensitive comparison) |
+| Single tracks | Title was shown twice on all tracks due to the `large_text` field (artwork tooltip), which Discord duplicated into the second line | The `large_text` field is removed to prevent duplication. The artist line is omitted if it matches the title (case-insensitive comparison) |
 | Distribution | Manual loading only | Published on Firefox Add-ons |
 
 ## Architecture
