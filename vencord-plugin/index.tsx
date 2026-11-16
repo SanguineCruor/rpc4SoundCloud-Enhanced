@@ -1,5 +1,5 @@
 /*
- * rpc4SoundCloud — Vencord plugin
+ * rpc4SoundCloud Enhanced — Vencord plugin
  */
 
 import { definePluginSettings } from "@api/Settings";
