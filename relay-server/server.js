@@ -1,4 +1,4 @@
-// rpc4SoundCloud — relay server
+// rpc4SoundCloud Enhanced — relay server
 //
 // Why this exists: neither a browser tab nor Discord's renderer process can
 // *accept* incoming connections, so we need one small always-running process
