@@ -134,7 +134,7 @@ function disconnect() {
 }
 
 export default definePlugin({
-    name: "rpc4SoundCloud",
+    name: "rpc4SoundCloud Enhanced",
     description: "Shows what you're listening to on SoundCloud as a Discord Rich Presence, fed live from a browser extension.",
     authors: [{ name: "you", id: 0n }],
     settings,
