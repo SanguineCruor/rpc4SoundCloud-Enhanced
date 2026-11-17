@@ -241,7 +241,7 @@ Sent by the extension, consumed by the plugin.
 
 | Issue | Cause | Status |
 |---|---|---|
-| Buttons in the status do not work | Discord limitation | Not resolved |
+| Buttons in the status do not work | Vencord limitation (`LOCAL_ACTIVITY_UPDATE` does not pass `metadata.button_urls`) | Not resolved |
 | Presence is not cleared when a tab with a playing track is closed | The extension sends no message on tab close, and the relay does not notify other clients about a disconnect | Not resolved |
 | Multiple open SoundCloud tabs overwrite each other's presence | Messages are not tagged with a tab identifier; the relay forwards all of them | Not resolved |
 | Artwork is not displayed | `appId` is not set in the plugin settings | See [Artwork](#artwork) |
