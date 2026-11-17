@@ -269,3 +269,7 @@ Vencord is a Discord client modification and is not permitted by the Discord Ter
 ## Credits
 
 This project is a fork of [rpc4SoundCloud](https://github.com/loren-wastaken/rpc4SoundCloud) by [loren-wastaken](https://github.com/loren-wastaken). The original architecture and base code were created by them under the MIT License. The playback state handling, timer synchronization, and progress bar implementation were rewritten in this fork.
+
+<br>
+
+![Teto Leek](leek.png)
